@@ -2,9 +2,12 @@ def join_ingredients(src)
   # Given an Array of 2-element Arrays ( [ [food1, food2], [food3, # food4]....[foodN, foodM]]):
 
   array_1 = [['pepperoni', 'sausage'], ['green olives', 'green peppers'], ['onions', 'pineapple']]
-  new_array = array_1.flatten!
-  new_array.each do |element|
-    puts element
+  i = 0
+    while i < src.length do
+      inner = src[i]
+      result << "I love #{inner[0]} and #{inner[1]} on my pizza"
+      i += 1
+    end
 
   end
 
