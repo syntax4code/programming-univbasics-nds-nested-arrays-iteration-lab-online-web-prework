@@ -11,9 +11,9 @@ def join_ingredients(src)
       result << "I love #{inner[0]} and #{inner[1]} on my pizza"
       row_index += 1
 end
-    byebug
+  result
 end
-result
+
   # Build a new Array that contains strings where each pair of foods is
   # inserted into this template:
 
