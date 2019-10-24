@@ -2,6 +2,7 @@ def join_ingredients(src)
   # Given an Array of 2-element Arrays ( [ [food1, food2], [food3, # food4]....[foodN, foodM]]):
 
   array_1 = [['pepperoni', 'sausage'], ['green olives', 'green peppers'], ['onions', 'pineapple']]
+  result = [] #this is the new array where the elements in array_1 are sent.
   i = 0
     while i < src.length do
       inner = src[i]
