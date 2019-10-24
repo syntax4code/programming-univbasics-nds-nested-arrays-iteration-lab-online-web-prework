@@ -12,7 +12,7 @@ def join_ingredients(src)
       i += 1
     end
     byebug
-    
+
   end
 result
   # Build a new Array that contains strings where each pair of foods is
