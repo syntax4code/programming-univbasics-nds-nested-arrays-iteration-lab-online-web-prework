@@ -12,9 +12,9 @@ def join_ingredients(src)
       i += 1
     end
     byebug
-    result
+    
   end
-
+result
   # Build a new Array that contains strings where each pair of foods is
   # inserted into this template:
 
